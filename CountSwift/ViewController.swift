@@ -26,7 +26,10 @@ class ViewController: UIViewController {
     @IBAction func plus() {
         number  = number + 1
         countLabel.text = String(number)
-        countLabel.text = String(format:"%d",number)
+        //countLabel.text = String(format:"%d",number)
+        if(number>=10){
+            countLabel.textColor = UIColor.blueColor()
+        }
     }
 
 }
