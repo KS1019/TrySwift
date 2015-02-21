@@ -13,6 +13,9 @@
 		7C6DE7971A98797D00F4C1AE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C6DE7961A98797D00F4C1AE /* Images.xcassets */; };
 		7C6DE79A1A98797D00F4C1AE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C6DE7981A98797D00F4C1AE /* LaunchScreen.xib */; };
 		7C6DE7A61A98797D00F4C1AE /* CountSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6DE7A51A98797D00F4C1AE /* CountSwiftTests.swift */; };
+		7C6DE7B31A987A9800F4C1AE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C6DE7B01A987A9800F4C1AE /* Default-568h@2x.png */; };
+		7C6DE7B41A987A9800F4C1AE /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C6DE7B11A987A9800F4C1AE /* Default-667h@2x.png */; };
+		7C6DE7B51A987A9800F4C1AE /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C6DE7B21A987A9800F4C1AE /* Default-736h@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		7C6DE79F1A98797D00F4C1AE /* CountSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C6DE7A41A98797D00F4C1AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C6DE7A51A98797D00F4C1AE /* CountSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountSwiftTests.swift; sourceTree = "<group>"; };
+		7C6DE7B01A987A9800F4C1AE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7C6DE7B11A987A9800F4C1AE /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
+		7C6DE7B21A987A9800F4C1AE /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,7 @@
 		7C6DE78D1A98797D00F4C1AE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7C6DE7AF1A987A9800F4C1AE /* Defaults */,
 				7C6DE78E1A98797D00F4C1AE /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -110,6 +117,16 @@
 				7C6DE7A41A98797D00F4C1AE /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7C6DE7AF1A987A9800F4C1AE /* Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				7C6DE7B01A987A9800F4C1AE /* Default-568h@2x.png */,
+				7C6DE7B11A987A9800F4C1AE /* Default-667h@2x.png */,
+				7C6DE7B21A987A9800F4C1AE /* Default-736h@3x.png */,
+			);
+			path = Defaults;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,8 +210,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C6DE7951A98797D00F4C1AE /* Main.storyboard in Resources */,
+				7C6DE7B31A987A9800F4C1AE /* Default-568h@2x.png in Resources */,
 				7C6DE79A1A98797D00F4C1AE /* LaunchScreen.xib in Resources */,
 				7C6DE7971A98797D00F4C1AE /* Images.xcassets in Resources */,
+				7C6DE7B41A987A9800F4C1AE /* Default-667h@2x.png in Resources */,
+				7C6DE7B51A987A9800F4C1AE /* Default-736h@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +357,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CountSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -347,6 +368,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CountSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
