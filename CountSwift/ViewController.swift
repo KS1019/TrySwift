@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        countLabel.textColor = UIColor.redColor()
     }
 
     override func didReceiveMemoryWarning() {
@@ -29,6 +30,13 @@ class ViewController: UIViewController {
         //countLabel.text = String(format:"%d",number)
         if(number>=10){
             countLabel.textColor = UIColor.blueColor()
+        }
+    }
+    @IBAction func minus(){
+        number = number - 1
+        countLabel.text = String(number)
+        if number<=10{
+            countLabel.textColor = UIColor.redColor()
         }
     }
 
