@@ -30,13 +30,25 @@ class ViewController: UIViewController {
         //countLabel.text = String(format:"%d",number)
         if(number>=10){
             countLabel.textColor = UIColor.blueColor()
+        }else if number>=100 {
+            countLabel.textColor = UIColor.orangeColor()
         }
+
     }
     @IBAction func minus(){
         number = number - 1
         countLabel.text = String(number)
         if number<=10{
             countLabel.textColor = UIColor.redColor()
+        }
+    }
+    @IBAction func kakeru(){
+        number = number * 2
+        countLabel.text = String(number)
+        if number>=10 {
+            countLabel.textColor = UIColor.blueColor()
+        }else if number>=100 {
+            countLabel.textColor = UIColor.orangeColor()
         }
     }
 
