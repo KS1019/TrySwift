@@ -51,6 +51,15 @@ class ViewController: UIViewController {
             countLabel.textColor = UIColor.orangeColor()
         }
     }
+    @IBAction func waru(){
+        number = number / 2
+        countLabel.text = String(number)
+        if number<=10 {
+            countLabel.textColor = UIColor.redColor()
+        }else if number<=100 {
+            countLabel.textColor = UIColor.blueColor()
+        }
+    }
 
 }
 
