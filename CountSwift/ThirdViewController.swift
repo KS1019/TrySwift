@@ -41,4 +41,10 @@ class ThirdViewController: UIViewController {
     @IBAction func three(){
         
     }
+    @IBAction func four(){
+        
+    }
+    @IBAction func five(){
+        
+    }
 }
