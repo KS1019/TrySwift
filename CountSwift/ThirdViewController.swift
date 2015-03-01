@@ -47,4 +47,19 @@ class ThirdViewController: UIViewController {
     @IBAction func five(){
         
     }
+    @IBAction func six(){
+        
+    }
+    @IBAction func seven(){
+        
+    }
+    @IBAction func eight(){
+        
+    }
+    @IBAction func nine(){
+        
+    }
+    @IBAction func zero(){
+        
+    }
 }
